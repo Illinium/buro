@@ -26,8 +26,19 @@ a{
 .wrapper{
 	width: auto;
 }
+ hr{
+	border-color: #e7be40;
+	
+} 
+
                               /*  HEADER BEGIN*/
 
+#menu a{
+	color: #FFF;
+}
+#menu a:hover{
+	color: #e7be40;
+}
 header {
 	height: 80px;
 	width: auto;
@@ -59,6 +70,10 @@ nav ul a {
 	color: #ffffff;
 	font: 16px Constantia, Arial ;
 }
+h1{
+	color: #e7be40;
+	font-size: 45px;
+}	
 
 
 
@@ -69,12 +84,13 @@ nav ul a {
                                /*  HEADER END*/
 
 .container{
-	height: 720px;
+	height: auto;
 	max-width: auto;
 }
 #main {
 	background: url(../img/bgheader.gif) no-repeat center bottom;
 	background-size: cover;
+	height: 700px;
 }
 
 
@@ -111,17 +127,15 @@ h2{
 }
 
 #buro h1{
-	color: #e7be40;
+	
 	margin: 60px 0 0 160px;
 	font-family: Verdana;
-	font-size: 45px;
+	
+}
+#buro hr{
+	margin: 10px 0 0 160px;
 }
 
- hr{
-	border-color: #e7be40;
-	margin: 10px 0 0 160px;
-
-} 
 p{
 	color: #fef4cf;
 	font-size: 14px;
@@ -146,18 +160,69 @@ p{
 	width: 450px;
 	margin: 45px 0 0 0;
 }
+#list{
+	display: -moz-box;
+	display: 
+}
+#list li{
+	display: inline-block;
+	color: #fef4cf;
+	font-size: 14px;
+	width: 170px;
+	height: 150px;
+	margin-left: 40px;
+	margin-top: 50px;
+	text-align: left;
 
+}
+#new{
+	align: center;
+}
+#new h1{
+	text-align: left;
+	padding-left: 40px;
+}
+#new hr{
+	margin-left: 0;
+}
 
+#newsbody {
+	background: url(../img/news.png) no-repeat center bottom;
+	background-size: cover;
+	height: 500px;
+	margin-top: -15px;
+	border: 2px solid #959595;
+}
 
+#pidtrumatu{
+	margin-top: 40px;
+}
+#pid{
+	text-align: center;
 
+}
+#finger{
+	width: 400px;
+	height: 200px;
+	margin-top: 50px;
+}
 
+#hands{
+	/*background: url(../img/hands.png)  no-repeat center bottom ;*/
+	height: 600px;
+}
+#pererah{
+	margin-top: -240px;
+}
 
-
-
-
-
-
-
+#pererah p{
+	text-align: right;
+}
+#pay{
+	max-width: 300px;
+	margin-top: -60px;
+	margin-left: 150px;
+}
 
 
 
