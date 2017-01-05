@@ -52,7 +52,7 @@ header {
 	margin-right: 20px;
 }
 .navbar-right li {
-	margin: 5px 25px 10px 10px;
+	margin: 5px 5px 10px 10px;
 }
 nav {
 	float: right;
@@ -72,6 +72,7 @@ nav ul a {
 	font: 16px Verdana, Arial ;
 }
 h1{
+	font-family: Verdana;
 	color: #e7be40;
 	font-size: 45px;
 }	
@@ -104,7 +105,7 @@ h1{
 }
 h2{
 	font-family: verdana;
-	color: #fff;
+	color:  #e7be40;
 	font-size: 35px;
 	float: right;
 	margin: 460px 120px 0 0;
@@ -135,7 +136,7 @@ h2{
 	
 }
 #buro hr{
-	margin: 10px 0 0 160px;
+	margin: 10px -15px 0 160px;
 }
 
 p{
@@ -147,15 +148,9 @@ p{
 
 }
 
-#anonim h1 {
-	margin: 30px 0 0 400px;
-	color: #e7be40;
-	border-color: #e7be40;
-}
-
 #anonim  hr{
-	margin: 30px 0 0 400px;
-	border-color: #e7be40;
+	margin-right: -30px;
+	
 }
 
 #textanonim {
@@ -185,7 +180,7 @@ p{
 	padding-left: 40px;
 }
 #new hr{
-	margin-left: 0;
+	margin-left: -15px;
 }
 
 #newsbody {
@@ -237,9 +232,13 @@ p{
 	width: 350px;
 }
 
+#fooleft{
+	margin-left: -30px;
+}
 
-
-
+#fooright{
+	margin-right: -30px;
+}
 
 
 
