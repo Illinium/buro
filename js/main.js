@@ -21,7 +21,7 @@ function a(){
 }
 function b(){
 	
-timer = setInterval(a, 200)
+timer = setInterval(a, 150)
 };
 about.onmouseover = function(){
 	if(arg == true){
@@ -46,7 +46,7 @@ function a1(){
 }
 function b1(){
 	
-timer1 = setInterval(a1, 200)
+timer1 = setInterval(a1, 150)
 };
 anonim.onmouseover = function(){
 	if(arg1 == true){
@@ -71,7 +71,7 @@ function a2(){
 }
 function b2(){
 	
-timer2 = setInterval(a2, 200)
+timer2 = setInterval(a2, 150)
 };
 news.onmouseover = function(){
 	if(arg2 == true){
@@ -96,7 +96,7 @@ function a3(){
 }
 function b3(){
 	
-timer3 = setInterval(a3, 200)
+timer3 = setInterval(a3, 150)
 };
 pidtrumatu.onmouseover = function(){
 	if(arg3 == true){
@@ -122,7 +122,7 @@ function a4(){
 }
 function b4(){
 	
-timer4 = setInterval(a4, 200)
+timer4 = setInterval(a4, 150)
 };
 cont.onmouseover = function(){
 	if(arg4 == true){
