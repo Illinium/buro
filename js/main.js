@@ -1,4 +1,4 @@
-window.onload = function(){
+// window.onload = function(){
 
 // var menu = document.getElementById('menu');
 var about = document.getElementById('about');
@@ -6,7 +6,7 @@ var anonim = document.getElementById('anonim');
 var news = document.getElementById('news');
 var pidtrumatu = document.getElementById('pidtrumatu');
 var cont = document.getElementById('cont');
-var blink = document.getElementById('blink');
+var blink = document.getElementsByClassName('blink');
 
 var arr = ['О', ' ', 'Б', 'Ю', 'Р', 'О'];
 var i = 0;
@@ -138,15 +138,20 @@ var blinkState = true;
 
 function blinkChange(){
 	if(blinkState == true){
-		blink.style.backGround = 'black';
+		for(c=0; c<blink.length; c++){
+			blink[c].id = 'blink1';
+	}
 		return blinkState = false;
 	}else{
-		blink.style.backGround = 'linear-gradient(to top, #764b19 0%, #412000 5%,#fec563  25%, #efdbcd  35%);';
+		for(d=0; d<blink.length; d++){
+			blink[d].id = 'blink';
+	}
 		return blinkState = true;
 	}
+	
 }
 
-setInterval(blinkChange, 2000);
+setInterval(blinkChange, 600);
 
 
 
@@ -180,4 +185,4 @@ setInterval(blinkChange, 2000);
 
 
 
-}
+// }

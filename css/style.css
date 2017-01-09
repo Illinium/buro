@@ -79,14 +79,27 @@ nav ul a {
 }
 h1{	   
 	font-family: Verdana;   
+	font-size: 45px;
+    padding-top: 50px;
+        
+}
+
+#print, #print1, #print2, #print3, #print4{
 	background-image:linear-gradient(to top, #764b19 0%, #412000 5%,#fec563  25%, #efdbcd  35%);
     /* linear-gradient(to top, #764b19 0%, #412000 35%,#fec563  65%, #efdbcd  100%);   */
 	-webkit-background-clip: text;
 	color: transparent;	
-	font-size: 45px;
-    padding-top: 50px;
-        
 }	
+
+#blink{
+	background-image:linear-gradient(to top, #764b19 0%, #412000 5%,#fec563  25%, #efdbcd  35%);
+	/* linear-gradient(to top, #764b19 0%, #412000 35%,#fec563  65%, #efdbcd  100%);   */
+	-webkit-background-clip: text;
+	color: transparent;	
+}
+#blink1{
+	visibility: hidden;
+}
 
 
 
