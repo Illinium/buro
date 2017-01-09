@@ -15,13 +15,14 @@ img{
 }
 
 ul{
-	list-style: none;
+	list-style: none;	
 }
-
+li{
+	
+	color: #e7be40;
+}
 a{
 	text-decoration: none;
-
-
 }
 
 .wrapper{
@@ -48,9 +49,14 @@ header {
 	width: auto;
 	height: 60px;
 }*/
+.navbar{
+    background-color: rgba(0, 0, 0, 0.54);
+}
 .navbar-right{
 	margin-right: 20px;
 }
+
+
 .navbar-right li {
 	margin: 5px 5px 10px 10px;
 }
@@ -71,10 +77,15 @@ nav ul a {
 	color: #ffffff;
 	font: 16px Verdana, Arial ;
 }
-h1{
-	font-family: Verdana;
-	color: #e7be40;
+h1{	   
+	font-family: Verdana;   
+	background-image:linear-gradient(to top, #764b19 0%, #412000 5%,#fec563  25%, #efdbcd  35%);
+    /* linear-gradient(to top, #764b19 0%, #412000 35%,#fec563  65%, #efdbcd  100%);   */
+	-webkit-background-clip: text;
+	color: transparent;	
 	font-size: 45px;
+    padding-top: 50px;
+        
 }	
 
 
@@ -93,6 +104,7 @@ h1{
 	background: url(../img/bgheader.gif) no-repeat center bottom;
 	background-size: cover;
 	height: 700px;
+    margin-top: -80px;
 }
 
 
@@ -155,12 +167,12 @@ p{
 
 #textanonim {
 	width: 450px;
-	margin: 45px 0 0 0;
+	margin: 100px 0 0 0;
 }
-#list{
-	display: -moz-box;
-	display: 
+#list2 ul{
+	list-style-type: square;
 }
+
 #list li{
 	display: inline-block;
 	color: #fef4cf;
@@ -189,11 +201,17 @@ p{
 	height: 500px;
 	margin-top: -15px;
 	border: 2px solid #959595;
-	overflow: auto;
 }
 
 #pidtrumatu{
+	
+	background-size: cover;
+	height: 500px;
 	margin-top: 40px;
+}
+
+#hand{
+background: url(../img/hands.png) no-repeat center bottom;
 }
 #pid{
 	text-align: center;
@@ -202,23 +220,23 @@ p{
 #finger{
 	width: 400px;
 	height: 200px;
-	margin-top: 50px;
+	margin-top: 200px;
+}
+#buton{
+    margin-left: 175px;
 }
 
 #hands{
 	/*background: url(../img/hands.png)  no-repeat center bottom ;*/
 	height: 600px;
 }
-#pererah{
-	margin-top: -240px;
-}
+
 
 #pererah p{
 	text-align: right;
 }
 #pay{
-	max-width: 300px;
-	margin-top: -60px;
+	max-width: 300px;	
 	margin-left: 150px;
 }
 
