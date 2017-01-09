@@ -6,6 +6,7 @@ var anonim = document.getElementById('anonim');
 var news = document.getElementById('news');
 var pidtrumatu = document.getElementById('pidtrumatu');
 var cont = document.getElementById('cont');
+var blink = document.getElementById('blink');
 
 var arr = ['О', ' ', 'Б', 'Ю', 'Р', 'О'];
 var i = 0;
@@ -131,6 +132,51 @@ cont.onmouseover = function(){
 		return arg4 = false;
 }
 };
+
+
+var blinkState = true;
+
+function blinkChange(){
+	if(blinkState == true){
+		blink.style.backGround = 'black';
+		return blinkState = false;
+	}else{
+		blink.style.backGround = 'linear-gradient(to top, #764b19 0%, #412000 5%,#fec563  25%, #efdbcd  35%);';
+		return blinkState = true;
+	}
+}
+
+setInterval(blinkChange, 2000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

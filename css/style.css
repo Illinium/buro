@@ -122,6 +122,9 @@ h2{
 	float: right;
 	margin: 460px 120px 0 0;
 }
+/* #blink{
+	visibility: hidden; */
+}
 #aboutimg{
 	height: 560px;
 	width: 530px;
