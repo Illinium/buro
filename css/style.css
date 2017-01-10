@@ -29,7 +29,10 @@ a{
 	width: auto;
 }
  hr{
-	border-color: #e7be40;
+    border: 0;
+    height: 4px;
+    background-image:linear-gradient(to top, #764b19 0%, #412000 35%,#fec563  75%, #efdbcd  100%);
+   
 	
 } 
 
@@ -39,7 +42,9 @@ a{
 	color: #FFF;
 }
 #menu a:hover{
-	color: #e7be40;
+	background-image:linear-gradient(to top, #764b19 0%, #412000 25%,#fec563  45%, #efdbcd  65%);
+    -webkit-background-clip: text;
+	color: transparent;	
 }
 header {
 	height: 80px;
@@ -234,9 +239,13 @@ background: url(../img/hands.png) no-repeat center bottom;
 
 }
 #finger{
-	width: 400px;
-	height: 200px;
-	margin-top: 200px;
+	width: 109px;
+	height: 130px;
+	margin-top: 170px;
+	margin-left: 230px;
+}
+#finger:hover{
+	
 }
 #buton{
     margin-left: 175px;
