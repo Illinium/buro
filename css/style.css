@@ -239,13 +239,27 @@ background: url(../img/hands.png) no-repeat center bottom;
 
 }
 #finger{
-	width: 109px;
+	width: 300px;
 	height: 130px;
 	margin-top: 170px;
-	margin-left: 230px;
-}
-#finger:hover{
+	margin-left: 80px;
+	 filter:opacity(30%);
 	
+}
+
+#finger:hover{
+	 filter:opacity(100%);
+	 filter:saturate(8);
+
+}
+#skarga{
+	margin-top: -100px;
+    margin-left: 70px;
+	text-decoration: none;
+	background-image:linear-gradient(to top, #764b19 0%, #412000 5%,#fec563  25%, #efdbcd  35%);
+    /* linear-gradient(to top, #764b19 0%, #412000 35%,#fec563  65%, #efdbcd  100%);   */
+	-webkit-background-clip: text;
+	color: transparent;	
 }
 #buton{
     margin-left: 175px;
