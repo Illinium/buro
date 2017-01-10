@@ -140,7 +140,7 @@
 						Банк: Державний ощадний банк України
 						Призначення платежу: Благодійний внесок
 					</p>
-					<a href="#"><img src="img/Сплатити.png" id="pay"></a>
+					<a class="btn" type="button" data-toggle="modal" data-target="#myModal"><img src="img/Сплатити.png" id="pay"></a>
 			</div>
 			</div>
 			
@@ -193,6 +193,36 @@
 
 </div>
 
+<div id="myModal" class="modal fade">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header"><button class="close" type="button" data-dismiss="modal">×</button>
+<h4 class="modal-title">Заголовок окна</h4>
+</div>
+<form class="form-inline">
+<div class="modal-body">
+  <div class="form-group">
+    <label for="name"></label>
+    <input type="text" class="form-control" id="name">
+  </div>
+  <div class="form-group">
+    <label for="namber"></label>
+    <input type="text" class="form-control" id="namber">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  
+</div>
+<div class="modal-footer">
+<button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>
+<button type="submit" class="btn btn-default">Submit</button>
+</form>
+</div>
+
+</div>
+</div>
+</div>
 
 
 

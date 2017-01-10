@@ -30,7 +30,7 @@ a{
 }
  hr{
     border: 0;
-    height: 8px;
+    height: 4px;
     background-image:linear-gradient(to top, #764b19 0%, #412000 35%,#fec563  75%, #efdbcd  100%);
    
 	
@@ -61,7 +61,20 @@ header {
 	margin-right: 20px;
 }
 
+.form-group{
+	border: 5px solid #080808 ;
+    border-radius: 8px;
+}
+.form-control{
+	color: #080808;
+    background-color: rgba(205, 177, 65, 0.8);    
+    border: 0px ;
+    border-radius: 0px;
+}
 
+.modal-content{
+	background-color: rgba(205, 177, 104, 0.41);	
+}
 .navbar-right li {
 	margin: 5px 5px 10px 10px;
 }
