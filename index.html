@@ -195,29 +195,46 @@
 
 <div id="myModal" class="modal fade">
 	<div class="modal-dialog">
-		<div class="modal-content">
+		<div class="modal-content modal-lg">
 			<div class="modal-header"><button class="close" type="button" data-dismiss="modal">×</button>
 				<h4 class="modal-title">Заголовок окна</h4>
 			</div>
-			<form class="form-inline">
+			<form class="form-horizontal ">	
 				<div class="modal-body">
-				  <div class="form-group">
-				    <label for="name"></label>
-				    <input type="text" class="form-control" id="name">
-				  </div>
-				  <div class="form-group">
-				    <label for="namber"></label>
-				    <input type="text" class="form-control" id="namber">
-				  </div>
-				  <div class="checkbox">
-				    <label><input type="checkbox"> Remember me</label>
-				  </div>
-				  
+					<div class="col-sm-12"> 
+						<div class="col-sm-6">    
+							<label for="name"></label>
+							<div class="roundbox boxshadow" id = "borderSqer"> 	
+								<input type="text" class="form-control" id="name">
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<label for="namber"></label>
+							<div class="roundbox boxshadow" id = "borderSqer">     
+								<input type="text" class="form-control" id="namber" placeholder="Ваш телефон (за бажанням)">
+							</div>
+						</div>
+					</div> 
+					<div class="col-sm-12"> 
+						<div class="roundbox boxshadow boxText" id = "borderSqer"> 
+	
+						<li>Я хочу пожертвувати:</li>
+						<br>
+						<p> за допомогою банківської карточки</p>
+						<p>	Для здіснення пожертви Ви будете направлені на спеціалізований сайт	</p>
+						<li>За допомогою подарункового сертификату</li>
+						<li>прямим переказам з банківської карточки</li>
+	
+						</div>
+					</div>
 				</div>
-				<div class="modal-footer">
-					<button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>
-					<button type="submit" class="btn btn-default">Submit</button>
-			
+				<div class="modal-footer"> 
+					<div class="col-sm-8"> 
+						<h2>	Дякуємо за підтримку!	</h2>
+					</div>
+					<div class="col-sm-3"> 
+						<button type="submit" class="btn btn-default">Submit</button>
+					</div>
 				</div>
 			</form>
 		</div>

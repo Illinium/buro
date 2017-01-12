@@ -67,16 +67,7 @@ header {
 	border: 5px solid #080808 ;
     border-radius: 8px;
 }
-.form-control{
-	color: #080808;
-    background-color: rgba(205, 177, 65, 0.8);    
-    border: 0px ;
-    border-radius: 0px;
-}
 
-.modal-content{
-	background-color: rgba(205, 177, 104, 0.41);	
-}
 .navbar-right li {
 	margin: 5px 5px 10px 10px;
 }
@@ -315,6 +306,67 @@ background: url(../img/hands.png) no-repeat center bottom;
 	margin-right: -30px;
 }
 
+/*  MODAL BOX*/
+
+
+.form-control{
+	color: #080808;
+    background-color: rgba(205, 177, 65, 0.8);    
+    border: 0px ;
+    border-radius: 0px;		
+}
+input[type="text"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #080808;
+}
+    
+.modal-footer{
+	
+	border-top:0;
+}
+.boxText{	
+	background-color:rgba(205, 177, 65, 0.8);
+	color: #080808;	
+	padding:20px;
+	margin-top:20px;
+	
+}
+
+.modal-content{
+	background-color: rgba(205, 177, 104, 0.41);	
+}
+.modal-footer h2{
+	background-image:linear-gradient(to top, #764b19 0%, #412000 5%,#fec563  25%, #efdbcd  35%);
+    /* linear-gradient(to top, #764b19 0%, #412000 35%,#fec563  65%, #efdbcd  100%);   */
+	-webkit-background-clip: text;
+	color: transparent;	
+	    margin: 0px 0px 0 0;
+}
+
+#borderSqer{
+	border: solid 7px rgba(43, 35, 17, 1);
+	border-radius: 6px;
+}
+
+#borderSqer li {
+	type:disc;
+	color: #080808;	
+}
+#borderSqer p {
+	type:disc;
+	color: #080808;	
+}
+.boxshadow 
+{
+  -moz-box-shadow: 3px 3px 5px #535353;
+  -webkit-box-shadow: 3px 3px 5px #535353;       
+  box-shadow: 0px 0px 0px #535353;
+}
+.roundbox
+{  
+  -moz-border-radius: 6px 6px 6px 6px;
+  -webkit-border-radius: 6px;  
+  border-radius: 6px 6px 6px 6px;
+}
 
 
 
