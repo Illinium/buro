@@ -1,4 +1,4 @@
-window.onload = function(){
+// window.onload = function(){
 
 // var menu = document.getElementById('menu');
 var about = document.getElementById('about');
@@ -6,6 +6,7 @@ var anonim = document.getElementById('anonim');
 var news = document.getElementById('news');
 var pidtrumatu = document.getElementById('pidtrumatu');
 var cont = document.getElementById('cont');
+var blink = document.getElementsByClassName('blink');
 
 var arr = ['О', ' ', 'Б', 'Ю', 'Р', 'О'];
 var i = 0;
@@ -23,7 +24,7 @@ function b(){
 	
 timer = setInterval(a, 200)
 };
-about.onmouseover = function(){
+/*about.onmouseover = */function ab(){
 	if(arg == true){
 		
 		b();
@@ -48,7 +49,7 @@ function b1(){
 	
 timer1 = setInterval(a1, 200)
 };
-anonim.onmouseover = function(){
+/*anonim.onmouseover = */function a1b1(){
 	if(arg1 == true){
 		
 		b1();
@@ -73,7 +74,7 @@ function b2(){
 	
 timer2 = setInterval(a2, 200)
 };
-news.onmouseover = function(){
+/*news.onmouseover =*/ function a2b2(){
 	if(arg2 == true){
 		
 		b2();
@@ -98,7 +99,7 @@ function b3(){
 	
 timer3 = setInterval(a3, 200)
 };
-pidtrumatu.onmouseover = function(){
+ function a3b3(){
 	if(arg3 == true){
 		
 		b3();
@@ -124,7 +125,7 @@ function b4(){
 	
 timer4 = setInterval(a4, 200)
 };
-cont.onmouseover = function(){
+function a4b4(){
 	if(arg4 == true){
 		
 		b4();
@@ -133,5 +134,72 @@ cont.onmouseover = function(){
 };
 
 
+var blinkState = true;
 
+function blinkChange(){
+	if(blinkState == true){
+		for(c=0; c<blink.length; c++){
+			blink[c].id = 'blink1';
+	}
+		return blinkState = false;
+	}else{
+		for(d=0; d<blink.length; d++){
+			blink[d].id = 'blink';
+	}
+		return blinkState = true;
+	}
+	
 }
+
+setInterval(blinkChange, 600);
+
+// console.log(about.offsetTop);
+window.onscroll = function(){
+	// console.log(document.body.scrollTop)
+	if(document.body.scrollTop > (about.offsetTop - 100)){
+		ab();
+	}
+	 if(document.body.scrollTop > (anonim.offsetTop - 100)){
+		a1b1();
+	}
+	if(document.body.scrollTop > (news.offsetTop - 100)){
+		a2b2();
+	}
+	if(document.body.scrollTop > (pidtrumatu.offsetTop - 100)){
+		a3b3();
+	}
+	if(document.body.scrollTop > (cont.offsetTop - 100)){
+		a4b4();
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// } 
