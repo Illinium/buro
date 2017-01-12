@@ -30,7 +30,7 @@ a{
 }
  hr{
     border: 0;
-    height: 6px;
+    height: 4px;
     background-image:linear-gradient(to top, #764b19 0%, #412000 35%,#fec563  75%, #efdbcd  100%);
    
 	
@@ -140,9 +140,6 @@ h2{
 	margin: 60px 0 0 0;
 }*/
 
-.modal-content{
-    background-color:rgba(219, 174, 35, 0.81);
-}
 
 .info{
 	margin: 20px 0 0 100px ;
@@ -219,12 +216,10 @@ p{
 }
 
 #hand{
-
+background: url(../img/hands.png) no-repeat center bottom;
 }
 #pid{
 	text-align: center;
-    background: url(../img/hands.jpg) no-repeat center bottom;
-    height: 500px;
 
 }
 #finger{
