@@ -153,6 +153,13 @@ function blinkChange(){
 
 setInterval(blinkChange, 600);
 
+console.log(about.top);
+window.onscroll = function(){
+	
+	if(this.scrollTop == about.scrollTop){
+		alert('yes')
+	}
+}
 
 
 
@@ -183,6 +190,4 @@ setInterval(blinkChange, 600);
 
 
 
-
-
-// }
+// } 
