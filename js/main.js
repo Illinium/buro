@@ -168,7 +168,7 @@ window.onscroll = function(){
 	if(document.body.scrollTop > (pidtrumatu.offsetTop - 100)){
 		a3b3();
 	}
-	if(document.body.scrollTop > (cont.offsetTop - 100)){
+	if(document.body.scrollTop > (cont.offsetTop - 150)){
 		a4b4();
 	}
 }
