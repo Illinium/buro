@@ -11,6 +11,8 @@ body{
 	background-color: #000000;
 	font: 12px Verdana;
 	padding-bottom: 70px;
+	font: 100%/1.5em Verdana, Arial;
+	overflow-x: hidden;
 }
 
 img{
@@ -90,11 +92,11 @@ nav ul a:hover {
 }
 nav ul a {
 	color: #ffffff;
-	font: 16px Verdana, Arial ;
+	font: 1.5em Verdana, Arial ;
 }
 h1{	   
 	font-family: Verdana;   
-	font-size: 45px;
+	font-size: 5vw;
     padding-top: 50px;
         
 }
@@ -137,14 +139,14 @@ h1{
 
 
 #logo{
-	margin: 90px 0 0 150px;
+	margin: 15% 0 0 10%;
 	position: absolute;
 
 }
 h2{
 	font-family: verdana;
 	color:  #e7be40;
-	font-size: 35px;
+	font-size: 2,1875em;
 	float: right;
 	margin: 460px 120px 0 0;
 }
@@ -185,7 +187,7 @@ h2{
 
 p{
 	color: #fef4cf;
-	font-size: Verdana 14px;
+	font-size: 1.2em;
 }
 
 #anonim  hr{
@@ -194,8 +196,8 @@ p{
 }
 
 #textanonim {
-	width: 400px;
-	margin: 100px 0 0 0;
+	/*width: 400px;*/
+	margin: 20% 0 0 0;
 }
 #list2{
 	list-style-type: square;
@@ -258,12 +260,12 @@ background: url(../img/hands.png) no-repeat center bottom;
 	margin-top: 100px;
 }
 
-
+/*
 #finger:hover{
 	 filter:opacity(100%);
 	 filter:saturate(8);
 
-}
+}*/
 #skarga{
 	margin-top: -105px;
     margin-left: 5px;
@@ -370,24 +372,47 @@ input[type="text"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 }
 
 
-#dva {
-  position: relative;
-}
+
 #dva:after {
   content: "";
-  position: absolute; top: 0; left: -2em;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to top, rgba(255,255,255,.0), rgba(255,255,255,.8), rgba(255,255,255,.0)) no-repeat -2em 0%;
-  background-size: 1em 100%;
-  transform: skewX(50deg);
+  position: absolute; top: 0;
+  left: 16em;
+  width: 50%;
+  height: 180%;
+  background: linear-gradient(to left, rgba(255,255,255,.0), rgba(255,255,255,.8), rgba(255,255,255,.0)) -60px -80px no-repeat ;
+  background-size: 100% 1.2em;
+  transform: skewX(0deg);
+/*  cursor: pointer;*/
 }
 #dva:hover:after {
   transition: 2s linear;
-  background-position: top 100% 0%;
+  background-position: 0% 200%;
+}
+
+#dva:hover #finger{
+	 filter:opacity(100%);
+	 filter:saturate(8);
+}
+
+
+
+@media (max-width: 330px){
+	#dva{
+		background-color: white;
+		margin-top: 0;
+	}
+
+	
 }
 
 
 
 
-
+@media only screen and (max-width: 500px){
+	h1{
+		font-size: 25px;
+	}
+	#pay{
+		margin-left: 0px;
+	}
+}
