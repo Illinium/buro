@@ -284,19 +284,22 @@
 <div id="myModal1" class="modal fade">
 	<div class="modal-dialog">
 		<div class="modal-content">
-			<div class="modal-header"><button class="close" type="button" data-dismiss="modal">×</button>
-				<h4 class="modal-title">Заголовок окна</h4>
+			<div class="modal-header">
+			<button class="close" type="button" data-dismiss="modal">×</button>				
 			</div>
 			<form class="form-inline" id="form1">
 				<div class="modal-body">
-				  <div class="form-group">				    
-				    <input type="text" class="form-control" id="name" name="name">
+				  <div class="form-group" id = "group-1">				    
+				    <input type="text" class="form-control" id="name" name="name" placeholder="Ваше ім'я (за бажанням)">
 				  </div>
-				  <div class="form-group">				    
-				    <input type="text" class="form-control" id="namber" name="namber">
-				  </div>
-				<input type="hidden" name="formData" value="Заявка с сайта">
+				  <div class="form-group" id = "group-1">				    
+				    <input type="text" class="form-control" id="namber" name="namber" placeholder="Ваш телефон (за бажанням)">
+				  </div>                				  
+				<div class="form-group" id='tex-anonim'>					
+					<textarea class="form-control" rows="5" id="comment" placeholder="Ваша анонімна звістка"></textarea>
 				</div>
+				</div>
+				</div>				
 				<div class="modal-footer">
 					<button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>
 					<button type="submit" class="btn btn-default">Відправити скаргу</button>			
@@ -305,6 +308,7 @@
 		</div>
 	</div>
 </div>
+
 
 
 
