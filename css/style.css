@@ -344,7 +344,9 @@ input[type="text"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 	color: transparent;	
 	    margin: 0px 0px 0 0;
 }
-
+#comment,#name,#group-1,#namber{
+	width:100%;
+}
 #borderSqer{
 	border: solid 7px rgba(43, 35, 17, 1);
 	border-radius: 6px;
