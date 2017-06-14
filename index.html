@@ -108,11 +108,11 @@
 	
 		<div class="row" id="anonim">
 			
-				<div class="col-lg-7 col-md-7 col-sm-7 col-xs-11 col-lg-offset-5 col-md-offset-5 col-sm-offset-5 col-xs-offset-1">
+				<<div class="col-lg-7 col-md-7 col-sm-7 col-xs-11 col-lg-offset-5 col-md-offset-5 col-sm-offset-5 col-xs-offset-1">
 					<h1><span id="print1"></span><span class="blink" id="blink">|</span></h1>
 					<hr>
 				</div>
-			<div class="row">
+			    <div class="row">
 				<div class="col-lg-8 col-md-8 col-sm-10 col-xs-10 col-sm-offset-1 col-xs-offset-1 col-lg-offset-0 col-md-offset-0">
 					<img src="img/anonim.png" >
 				</div>
@@ -120,10 +120,12 @@
 					<p id="textanonim">Кожен, хто володіє інформацією про чиновника, який нажив свій стан за допомогою державної служби,корупційних схем, крадіжки бюджетних коштів, і так далі, просимо повідомити в Люстраційне Бюро України. 
 					Анонімність гарантується. </p>
 
-				<div class="col-lg-10 col-md-12 col-sm-10 col-xs-12 col-lg-offset-1 col-md-offset-0 col-sm-offset-1 col-xs-offset-0" id="dva"><a class="btn" type="button" data-toggle="modal" data-target="#myModal1">
-					<img src="img/finger3.png" id="finger"></a>
+				
+				<a class="col-lg-10 col-md-12 col-sm-10 col-xs-12 col-lg-offset-1 col-md-offset-0 col-sm-offset-1 col-xs-offset-0" id="dva" type="button" data-toggle="modal" data-target="#myModal1">				
+					<img src="img/finger3.png" id="finger">
 					<h3 id="skarga">Поскаржитися</h3>
-				</div>
+				</a>										
+				
 				</div>
 		
 		</div>
@@ -285,25 +287,19 @@
 			<div class="modal-header"><button class="close" type="button" data-dismiss="modal">×</button>
 				<h4 class="modal-title">Заголовок окна</h4>
 			</div>
-			<form class="form-inline">
+			<form class="form-inline" id="form1">
 				<div class="modal-body">
-				  <div class="form-group">
-				    <label for="name"></label>
-				    <input type="text" class="form-control" id="name">
+				  <div class="form-group">				    
+				    <input type="text" class="form-control" id="name" name="name">
 				  </div>
-				  <div class="form-group">
-				    <label for="namber"></label>
-				    <input type="text" class="form-control" id="namber">
+				  <div class="form-group">				    
+				    <input type="text" class="form-control" id="namber" name="namber">
 				  </div>
-				  <div class="checkbox">
-				    <label><input type="checkbox"> Remember me</label>
-				  </div>
-				  
+				<input type="hidden" name="formData" value="Заявка с сайта">
 				</div>
 				<div class="modal-footer">
 					<button class="btn btn-default" type="button" data-dismiss="modal">Закрыть</button>
-					<button type="submit" class="btn btn-default">Submit</button>
-			
+					<button type="submit" class="btn btn-default">Відправити скаргу</button>			
 				</div>
 			</form>
 		</div>
